@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Javascript JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <h1>Vidéothéque</h1>
+       <!-- <script src="exo.js"></script>
+        <script src="payer.js"></script>  -->
+       <script src="film.js"></script>
+       
+        <form method="post" name="FormVid"> 
+            <select id="selectFilm">
+              <option onclick='choix("Blade Runner","SCIFI","1982");'>Blade Runner</option>
+              <option onclick='choix("SpiderMan","Action","2017")'>Spiderman</option>
+              <option onclick='choix("Wonder Woman","Action","2017")'>Wonder Woman</option>
+          </select><br/>
+          <button  type="button">Payer</button>
+        </form>
+        <br/>
+        <label>Console</label><br/>
+        <textarea id="notifications" cols="30" rows="5" >
+           ....
+        </textarea>
+    </body>
+</html>
